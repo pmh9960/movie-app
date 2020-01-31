@@ -1,26 +1,37 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    console.log("do constructor");
+  }
+
   state = {
     count: 0
   };
-
   add = () => {
     this.setState(current => ({ count: current.count + 1 }));
   };
   minus = () => {
     this.setState(current => ({ count: current.count - 1 }));
   };
-
   render() {
+    console.log("do render");
     return (
       <div>
-        <h1>The number is {this.state.count}</h1>
-        <button onClick={this.add}>Add</button>
-        <button onClick={this.minus}>Minus</button>
+        <h1>
+          Hello!<p>number: {this.state.count}</p>
+        </h1>
+        <button onClick={this.add}>add</button>
+        <button onClick={this.minus}>minus</button>
       </div>
     );
+  }
+  componentDidMount() {
+    console.log("do componentDidMount");
+  }
+  componentDidUpdate() {
+    console.log("do componentDidUpdate");
   }
 }
 
