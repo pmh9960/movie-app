@@ -1,0 +1,36 @@
+.root {
+}
+
+.detail__poster img {
+  width: 300px;
+  padding: 0;
+  margin: 0px;
+}
+.detail__title,
+.detail__year {
+  font-weight: 500;
+  text-align: center;
+}
+
+.detail__poster {
+  margin-top: 50px;
+  text-align: center;
+}
+.detail__genres {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  justify-content: center;
+}
+.detail__genres li {
+  margin-right: 10px;
+}
+.detail__summary {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 25px;
+  padding: 15px;
+  background-color: rgb(243, 225, 192);
+}

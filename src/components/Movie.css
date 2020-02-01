@@ -1,22 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #eff3f7;
-  height: 100%;
-}
-
-html,
-body,
-#root,
-.container {
-  height: 100%;
-}
-
-.movie {
+.movie a {
+  margin: 50px;
+  width: 500px;
   display: flex;
   background-color: white;
   box-shadow: 5px 5px 5px 5px #b2b3bc;
   border-radius: 5px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .movie__data {

@@ -32,11 +32,6 @@ body,
   flex-wrap: wrap;
 }
 
-.movie {
-  margin: 50px;
-  width: 500px;
-}
-
 .intro {
   width: 100%;
   display: flex;
