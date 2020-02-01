@@ -33,6 +33,7 @@ class App extends React.Component {
           </div>
         ) : (
           <div className="movies">
+            <h1 className="intro">This is Movie Chart!!!</h1>
             {movies.map(movie => (
               <Movie
                 key={movie.id}
