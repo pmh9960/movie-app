@@ -1,0 +1,23 @@
+.Home,
+.About {
+  color: blue;
+  font-weight: 500;
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.Nav {
+  background-color: white;
+  width: 100px;
+  margin: 0px;
+  position: relative;
+  top: 5%;
+  left: 3%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #b2b3bc;
+}
